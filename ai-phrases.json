@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "version": "1.0",
+    "description": "AI 分析字句庫 — 用於 MT5 副窗口顯示",
+    "update_url": "https://你的帳號.github.io/你的專案/ai-phrases.json"
+  },
+
+  "AI_MONITORING": [
+    "K線形態 {pattern}，等待確認反轉信號",
+    "RSI {rsi} 未達閾值，繼續監控",
+    "ADX {adx} 趨勢強度不足，保持觀望",
+    "掃描M5歷史模式中... 無匹配信號",
+    "市場成交 {bid}，等待新K線形成",
+    "當前波動 ATR {atr}，市場平靜",
+    "多週期 {ema_status}，方向尚未統一",
+    "觀望中，點差 {spread}/20 成本合理"
+  ],
+
+  "AI_ANALYZING": [
+    "比對過去50根K線，{pattern} 出現 {count} 次",
+    "當前模式 {pattern}，歷史勝率 {win_rate}%",
+    "M5 {ema_status}，多週期方向一致",
+    "ATR {atr} 波動{vol_warning}",
+    "K線 {pattern} 與上次突破前形態相似度 {similarity}%",
+    "分析 {pattern} 組合，RSI {rsi} 偏{side}區",
+    "比對 {count} 筆歷史數據，ADX {adx} 趨勢{trend_state}",
+    "多時間框架掃描中，M1 {tf1} M5 {tf5} M15 {tf15}"
+  ],
+
+  "AI_EVALUATING": [
+    "RSI {rsi} {rsi_zone}✅",
+    "點差 {spread}/20 {spread_verdict}✅",
+    "ADX {adx} {adx_verdict}✅",
+    "多週期 {ema_status} EMAs方向檢查通過",
+    "信心指數 {confidence}%，條件逐步滿足中",
+    "RSI {rsi} ADX {adx} 組合符合篩選規則",
+    "波動率 {vol_level}，ATR {atr} 適合進場",
+    "最後確認: 點差 {spread} 成交量正常"
+  ],
+
+  "AI_READY_OPEN": [
+    "條件全數通過！RSI {rsi} ADX {adx}",
+    "進場信號已確認，執行開倉程序...",
+    "模式匹配成功 + ADX過濾通過，準備交易",
+    "開倉方向: {direction}⬆️，信心 {confidence}%",
+    "信心 {confidence}%，止損置於 ATR {sl} 外",
+    "多週期 {ema_status} 共振，開倉條件成熟",
+    "RSI {rsi} 未超買，ADX {adx} 趨勢明確",
+    "{direction} 信號觸發，執行市價單"
+  ],
+
+  "AI_POSITION_HELD": [
+    "持倉浮盈 ${profit}，追蹤止盈啟動",
+    "當前波動 ATR {atr}，正常範圍內",
+    "持倉時間 {hold_time}分鐘，風險可控",
+    "浮盈 ${profit}，移動止損已上調",
+    "RSI {rsi} 監控反轉風險中",
+    "持倉 ${symbol}，盈虧 ${profit} 追蹤中",
+    "ATR {atr} 波動正常，繼續持倉",
+    "浮盈 ${profit}，保本止損已設"
+  ],
+
+  "AI_COOLDOWN": [
+    "冷卻暫停 {cooldown}秒，等待市場穩定",
+    "上一輪盈虧 ${profit}，記錄到日誌",
+    "策略冷卻中，避免情緒化交易",
+    "分析緩存已清除，準備下一輪監控",
+    "回顧: 上次{result} {points}點",
+    "冷卻 {cooldown}秒，復盤上輪交易",
+    "等待波動率回落，ATR {atr} 仍偏高",
+    "系統重置完畢，即將恢復監控"
+  ]
+}
